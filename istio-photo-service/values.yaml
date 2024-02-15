@@ -16,9 +16,10 @@ deployment:
   hostAliases:
     - ip: "10.1.1.1"
       hostnames:
-        - "test.nhn.wmi"
+        - "test.nhn"
+        #- "test.nhn.wmi"
   image:
-    name: "5627e02d-kr2-registry.container.nhncloud.com/ncr/istio-photo-service"
+    name: "bdf05c9f-kr1-registry.container.nhncloud.com/test/istio-photo-service"
     tag: "1"
     pullPolicy: Always
   command:
