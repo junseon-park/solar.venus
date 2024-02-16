@@ -4,7 +4,7 @@
 
 # global variables for all chart
 global:
-  repository: "regcredd"
+  repository: "regcred"
 deployment:
   annotations:
     app: istio-demo-app
